@@ -1,0 +1,74 @@
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #fff7ed;
+  color: #431407;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 60px;
+  margin: 0;
+}
+
+.caixa {
+  background-color: #ffffff;
+  padding: 24px;
+  border-radius: 10px;
+  width: 320px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+}
+
+.adicionar {
+  display: flex;
+  gap: 8px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #fed7aa;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #f97316;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ea580c;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid #ffedd5;
+  cursor: pointer;
+}
+
+.feita {
+  text-decoration: line-through;
+  color: #a8a29e;
+}
+
+li button {
+  padding: 4px 10px;
+}
